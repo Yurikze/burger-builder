@@ -26,7 +26,7 @@ const app = (props) => {
 
   let routes = (
     <Switch>
-      <Route path="/auth" render={(props) => <Auth {...props}  />} />
+      <Route path="/auth" render={(props) => <Auth {...props} />} />
       <Route path="/" exact component={BurgerBuilder} />
       <Redirect to="/" />
     </Switch>
